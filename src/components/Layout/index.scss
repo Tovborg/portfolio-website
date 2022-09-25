@@ -4,24 +4,50 @@
     position: absolute;
 }
 
-.top-tags {
+.html-top-tags {
     bottom: auto;
-    top: 35px;
+    top: 50px !important;
 }
 
-.tags {
+.html-top-tag-html {
+    margin-left: -20px;
+}
+
+.html-tags {
     color: #ffd700;
     opacity: 0.6;
     position: absolute;
     bottom: 0;
-    left: 120px;
+    left: 115px;
     font-size: 18px;
     font-family: 'La Belle Aurore';
 }
 
-.bottom-tag-html {
+.html-bottom-tags {
+    // make sure the bottom tags are always on the bottom
+    // set bottom so it is always at the bottom on every device
+    bottom: 0px;
+}
+
+.html-bottom-tag-html {
     margin-left: -20px;
 }
+
+// media query for mobile html tags
+@media only screen and (max-width: 1100px) {
+    .html-top-tags {
+        bottom: auto;
+        top: 0;
+    }
+    .html-tags {
+        left: 30px;
+    }
+}
+
+
+
+
+
 
 .container {
     width: 100%;

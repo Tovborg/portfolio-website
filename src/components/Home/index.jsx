@@ -20,10 +20,21 @@ const Home = () => {
 
     return (
         <>
+            
             <div className="mobile-logo">
                 <Logo />
             </div>
             <div className="container home-page">
+                <span className='html-tags html-top-tags'>
+                    <span className='html-top-tag-html'>&lt;html&gt;</span>
+                    <br />
+                    &lt;body&gt;
+                </span>
+                <span className='html-tags html-bottom-tags'>
+                    &lt;/body&gt;
+                    <br />
+                    <span className='html-bottom-tag-html'>&lt;/html&gt;</span>
+                </span>
                 <div className="text-zone">
                     <h1>
                     <span className={letterClass}>H</span>

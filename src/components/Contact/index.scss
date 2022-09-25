@@ -1,7 +1,21 @@
-.contact-form {
+.contact-page {
+  .map-zone {
+    background: rgba(8, 253, 216, 0.1);
+    float: right;
+    width: 50%;
+    height: 110%;
+    margin-top: -3.7%;
+  }
+  .leaflet-container {
+    position: relative;
     width: 100%;
-    margin-top: 20px;
-  
+    height: 100%;
+    opacity: 0;
+    animation: backInRight 1s 1.2s;
+    animation-fill-mode: forwards;
+  }
+}
+.contact-form {
     ul {
       padding: 0;
       margin: 0;
@@ -71,59 +85,69 @@
       text-align: center;
       margin-right: 10px;
     }
+
   }
+
   
-  .map-wrap {
-    background: rgba(8, 253, 216, 0.1);
-    float: right;
-    width: 200px;
-    height: 115%;
-    margin-top: -3%;
-  }
+
+@media screen and (max-width: 768px) {
   
-  .leaflet-container {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    opacity: 0;
-    animation: backInRight 1s 1.2s;
-    animation-fill-mode: forwards;
-  }
-  
-  .info-map {
-    position: absolute;
-    background: #000;
-    top: 50px;
-    right: 30%;
-    z-index: 999999;
-    width: 267px;
-    padding: 20px;
-    color: #fff;
-    font-family: 'Helvetica';
-    font-size: 17px;
-    font-weight: 300;
-    opacity: 0;
-    animation: fadeIn 1s 1.5s;
-    animation-fill-mode: forwards;
-  
-    span {
-      font-size: 16px;
-  
-      span {
-        color: #ffd700;
+  .contact-page {
+    top: 10%;
+    .text-zone {
+      width: 85%;
+      bottom: -40%;
+      p {
+        font-size: 14px;
+        font-family: 'Roboto', sans-serif;
       }
     }
-  }
-  
-  @media screen and (max-width: 1200px) {
-    .map-wrap {
-      float: none;
-      margin: 0;
-      width: 100%;
-      height: 400px;
-    }
-    
-    .info-map {
+    .map-zone {
       display: none;
     }
   }
+}
+
+// make medie query for really small screens
+@media screen and (max-width: 350px) {
+  .contact-page {
+    top: 10%;
+    .text-zone {
+      width: 85%;
+      bottom: -40%;
+      p {
+        display: none;
+      }
+    }
+  }
+  .contact-form {
+    ul {
+      padding: 0;
+      margin: 0;
+      li {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        margin-bottom: 5px;
+        opacity: 0;
+        overflow: hidden;
+        display: block;
+        clear: both;
+        position: relative;
+        animation: fadeInUp 2s 2s;
+        animation-fill-mode: forwards;
+      }
+    }
+    input[type='text'],
+    input[type='email'] {
+      width: 100%;
+      border: 0;
+      background: #115173;
+      height: 42px;
+      font-size: 16px;
+      color: #fff;
+      padding: 0 20px;
+      box-sizing: border-box;
+    }
+  }
+}

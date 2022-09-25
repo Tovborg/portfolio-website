@@ -1,4 +1,4 @@
-import './index.scss';
+import './index.scss'
 import AnimatedLetters from '../AnimatedLetters';
 import { useState, useEffect } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -29,7 +29,9 @@ const About = () => {
                     <p>I'm a very curious person and I love to learn new things. 
                     I'm also very passionate about technology and I love to build things and fumble around with different technologies. I'm currently working on a few projects and I'm also learning React (This page is made in React lol)</p>
                     <p>In my Free time I love going to the gym and ofc coding</p>
+                    
                 </div>
+                
 
                 <div className='stage-cube-cont'>
                     <div className='cubespinner'>
