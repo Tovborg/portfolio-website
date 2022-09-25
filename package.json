@@ -1,8 +1,9 @@
 {
+  "homepage": "http://Tovborg.github.io",
   "name": "react-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://tovborg.me/portfolio-website",
+  
   "dependencies": {
     "@emailjs/browser": "^3.7.0",
     "@fortawesome/free-brands-svg-icons": "^6.2.0",
