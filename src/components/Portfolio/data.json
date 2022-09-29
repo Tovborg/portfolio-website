@@ -1,0 +1,12 @@
+
+{
+    "portfolio": [
+        {
+            "title": "Lectio Scraper",
+            "github": "https://github.com/Tovborg/LectioScraper",
+            "url": "https://lectioscraper.readthedocs.io/en/latest/?",
+            "description": "A Python library for scraping data from the Danish school management system Lectio.",
+            "tech": "python, requests, BeautifulSoup4"
+        }
+    ]
+}

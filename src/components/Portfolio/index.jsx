@@ -37,6 +37,30 @@ const Portfolio = () => {
                     </h1>
                     <div className="portfolio-container">
                         <div className="row">
+                            
+                            <div className="portfolio-item">
+                                <div className="card">
+                                    <div className="card-header">
+                                        <FontAwesomeIcon icon={faFolder} className="folder" color="#4d4d4e" />
+                                        <span className="external-links">
+                                            <a href="https://github.com/Tovborg/LectioScraper" target="_blank" rel="noreferrer">
+                                                <FontAwesomeIcon icon={faGithub} className="githubIcon" color="#4d4d4e" />
+                                            </a>
+                                        </span>
+                                    </div>
+                                    <div className="card-title">
+                                        <h2>
+                                            django-ecommerce
+                                        </h2>
+                                    </div>
+                                    <div className="card-desc">
+                                        Django-ecommerce is a project I made while learning Django. It has all the basic features of an e-commerce website (cart, checkout, CMS).
+                                    </div>
+                                    <div className="card-tech">
+                                        Python / Django, Ajax, PostgreSQL
+                                    </div>
+                                </div>
+                            </div>
                             <div className="portfolio-item">
                                 <div className="card">
                                     <div className="card-header">
@@ -56,10 +80,10 @@ const Portfolio = () => {
                                         </h2>
                                     </div>
                                     <div className="card-desc">
-                                        LectioScraper is a PyPi package that allows you to scrape your lectio.dk with ease
+                                    LectioScraper is a PyPi package that allows you to scrape the danish school platform lectio.dk with ease. Lectio is commonly used by danish highschools
                                     </div>
                                     <div className="card-tech">
-                                        Python / Django, BeautifulSoup, Requests
+                                        Python, BeautifulSoup4, Requests
                                     </div>
                                 </div>
                             </div>
@@ -75,37 +99,14 @@ const Portfolio = () => {
                                     </div>
                                     <div className="card-title">
                                         <h2>
-                                            LectioScraper
+                                            Tensorfow rock-paper-scissors
                                         </h2>
                                     </div>
                                     <div className="card-desc">
-                                        LectioScraper is a PyPi package that allows you to scrape your lectio.dk with ease
+                                        A rock-paper-scissors game made in Python using tensorflow v2.0 and OpenCV. It recognizes hand gestures and plays rock-paper-scissors against the user.
                                     </div>
                                     <div className="card-tech">
-                                        Python / Django, BeautifulSoup, Requests
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="portfolio-item">
-                                <div className="card">
-                                    <div className="card-header">
-                                        <FontAwesomeIcon icon={faFolder} className="folder" color="#4d4d4e" />
-                                        <span className="external-links">
-                                            <a href="https://github.com/Tovborg/LectioScraper" target="_blank" rel="noreferrer">
-                                                <FontAwesomeIcon icon={faGithub} className="githubIcon" color="#4d4d4e" />
-                                            </a>
-                                        </span>
-                                    </div>
-                                    <div className="card-title">
-                                        <h2>
-                                            LectioScraper
-                                        </h2>
-                                    </div>
-                                    <div className="card-desc">
-                                        LectioScraper is a PyPi package that allows you to scrape your lectio.dk with ease
-                                    </div>
-                                    <div className="card-tech">
-                                        Python / Django, BeautifulSoup, Requests
+                                        Python, Tensorflow, OpenCV
                                     </div>
                                 </div>
                             </div>

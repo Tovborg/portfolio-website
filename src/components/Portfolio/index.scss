@@ -127,11 +127,14 @@
             color : rgb(136, 146, 176); 
             font-size : 13px;     
             // position in the bottom of the card div
-            display: flex;
-            flex-direction: column;
-            justify-content: flex-end;
-            height: 30%;
-            margin-bottom: 0px;
+            position: fixed;
+            bottom: 0 !important;
+            // center the text
+            text-align: center;
+            width: 100%;
+            // make it 10px away from the div on the bottom
+            right: 1%;
+            margin-bottom: 50px;
         }
     }
 
