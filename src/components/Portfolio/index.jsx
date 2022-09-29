@@ -69,7 +69,7 @@ const Portfolio = () => {
                                             <a href="https://github.com/Tovborg/LectioScraper" target="_blank" rel="noreferrer">
                                                 <FontAwesomeIcon icon={faGithub} className="githubIcon" color="#4d4d4e" />
                                             </a>
-                                            <a href="#">
+                                            <a href="https://readthedocs.org/projects/lectioscraper/" target="_blank" rel="noreferrer">
                                                 <FontAwesomeIcon icon={faLink} className="linkIcon" color="#4d4d4e" />
                                             </a>
                                         </span>
